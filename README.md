@@ -14,3 +14,4 @@ The app fetches weather data from the OpenWeather API based on the user's input 
 <img width="402" alt="image" src="https://github.com/iAmDiksha/weather_app/assets/89463068/2a16bacb-829e-4b87-9dd6-ff4a15fcdec3">
 
 ## Live Link:
+https://iamdiksha.github.io/weather_app/
