@@ -1,7 +1,7 @@
 const searchInput = document.getElementById('search-input');
 const searchBtn = document.getElementById('search-btn');
 const weatherData = document.getElementById('weather');
-const apiKey = "e51af41d27d8734610792225ced34499";
+const apiKey = "05c91f55ab8268544676a509ce8b5f98";
 
 searchBtn.addEventListener('click', ()=>{
     let cityName = searchInput.value;
