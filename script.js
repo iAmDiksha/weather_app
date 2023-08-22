@@ -1,7 +1,8 @@
+
 const searchInput = document.getElementById('search-input');
 const searchBtn = document.getElementById('search-btn');
 const weatherData = document.getElementById('weather');
-const apiKey = "e51af41d27d8734610792225ced34499";
+const API_KEY = OPENWEATHER_API_KEY;
 
 searchBtn.addEventListener('click', ()=>{
     let cityName = searchInput.value;
@@ -12,7 +13,7 @@ searchBtn.addEventListener('click', ()=>{
 })
 
 const getWeatherData = (city)=>{
-    const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
+    const apiURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_KEY}&units=metric`;
 
     fetch(apiURL).then(res => res.json())
     .then(data => {
